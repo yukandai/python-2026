@@ -1,0 +1,12 @@
+Ejercicio 3
+Validación General del Programa (Demostración Cooperativa)
+
+Para el bloque estadístico:
+Declarar una lista con diccionarios de prueba que emulen los casos de error reales planteados (cadenas con textos anexados tipo "35.0 C", espacios flotantes y ubicaciones vacías). 
+Invocar secuencialmente las funciones mediante comprensión de listas y validar con salidas impresas por consola (print) 
+que el promedio térmico y la lista de alertas coinciden con las especificaciones.
+
+Para el bloque de objetos: 
+Instanciar un objeto de la clase PanelSolar con parámetros correctos y verificar visualmente que su ficha técnica imprima el diccionario expandido polimórficamente. 
+Posteriormente, estructurar un bloque try-except donde de forma intencional se intente asignar un stock de -5 al objeto; 
+el script debe demostrar que captura exitosamente la excepción StockInvalidoError e imprime un mensaje de advertencia controlado en la terminal en lugar de colapsar la aplicación.
